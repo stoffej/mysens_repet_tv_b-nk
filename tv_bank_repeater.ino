@@ -39,7 +39,7 @@ void setup()
   gw.begin(NULL, 5, true);
 
   //Send the sensor node sketch version information to the gateway
-  gw.sendSketchInfo("Repeater Node", "1.0");
+  gw.sendSketchInfo("Repeater Node TV bank", "1.0");
 }
 
 void loop() 
